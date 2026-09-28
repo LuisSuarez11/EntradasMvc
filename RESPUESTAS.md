@@ -25,6 +25,3 @@ Porque la vista solo debe mostrar datos. La regla de negocio vive en el modelo; 
 
 **5. ¿Por qué la validación debe existir también en el servidor?**
 Porque la validación del navegador (JavaScript o atributos HTML) se puede desactivar, saltar o manipular; por ejemplo con `novalidate`, con herramientas de desarrollo o enviando la petición directamente sin usar el formulario. El servidor es el único lugar que el usuario no controla, así que ahí se debe comprobar siempre con `ModelState.IsValid` antes de procesar los datos.
-
-## Nota sobre las capturas
-Faltan las capturas que pide la entrega (resultado con 5 entradas y Visual Studio detenido en `Calcular`); hay que tomarlas ejecutando el proyecto con F5.
